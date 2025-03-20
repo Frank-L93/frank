@@ -29,6 +29,12 @@ Route::get('/deepdives', function(){
 
 Route::get('/chess', [ChessController::class, 'index'])->name('chess');
 
+Route::get('/schaakles/{filename}', function($filename){
+    return Inertia::render('Schaakles', [
+        'filename' => $filename,
+    ]);
+})->name('schaakles');
+
 Route::get('/rad', function() {
     return Redirect::to('https://wheelofnames.com/nl/gdp-5hp');
 });
