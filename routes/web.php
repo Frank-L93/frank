@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 use App\Http\Controllers\ChessController;
+use App\Http\Controllers\SwissMasterController;
 
 Route::get('/', function () {
     return Inertia::render('Welcome', [
@@ -34,6 +35,11 @@ Route::get('/schaakles/{filename}', function($filename){
         'filename' => $filename,
     ]);
 })->name('schaakles');
+
+
+
+Route::get('/teams/{path1}/{path2?}', [SwissMasterController::class, 'index'])->where(['path1' => '[a-zA-Z0-9]+', 'path2' => '[a-zA-Z0-9]+']);
+Route::get('/teams/{path1}', [SwissMasterController::class, 'index'])->where(['path1' => '[a-zA-Z0-9]+']);
 
 Route::get('/rad', function() {
     return Redirect::to('https://wheelofnames.com/nl/gdp-5hp');
