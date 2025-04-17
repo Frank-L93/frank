@@ -14,7 +14,8 @@ export default function Resume() {
 
 <Chrono items={[
     {
-        title: '2025',
+        title: 'This year',
+        cardTitle: '2025',
         cardDetailedText: [
             <ol class="list-disc list-inside">
               <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a> (until 14th of February)</li>
@@ -28,7 +29,8 @@ export default function Resume() {
         ]
     },
     {
-        title: '2024',
+        title: 'Last Year',
+        cardTitle: '2024',
         cardDetailedText:[
             <ol class="list-disc list-inside">
               <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a></li>
@@ -45,6 +47,7 @@ export default function Resume() {
     },
     {
         title: '2023',
+        cardTitle: '2023',
         cardDetailedText:[
             <ol class="list-disc list-inside">
             <li>Working for <a href="https://stedin.net" target="_blank">Stedin</a></li>
@@ -59,6 +62,7 @@ export default function Resume() {
     },
     {
         title: '2022',
+        cardTitle: '2022',
         cardDetailedText:[
             <ol class="list-disc list-inside">
           <li>Working for <a
@@ -79,6 +83,7 @@ export default function Resume() {
     },
     {
         title: '2021',
+        cardTitle: '2021',
         cardDetailedText:[
             <ol class="list-disc list-inside">
           <li>Working for <a
@@ -105,6 +110,7 @@ export default function Resume() {
     },
     {
         title: '2020',
+        cardTitle: '2020',
         cardDetailedText:[
             <ol class="list-disc list-inside">
             <li>Working for <a
@@ -139,6 +145,7 @@ export default function Resume() {
     },
     {
         title: '2019',
+        cardTitle: '2019',
         cardDetailedText:[
             <ol class="list-disc list-inside">
             <li>Started in February at <a
@@ -182,6 +189,7 @@ export default function Resume() {
     },
     {
         title: '2018',
+        cardTitle: '2018',
         cardDetailedText:[
             <ol class="list-disc list-inside">
           <li>Working for <a
@@ -207,6 +215,7 @@ export default function Resume() {
     },
     {
         title: '2017',
+        cardTitle: '2017',
         cardDetailedText:[
             <ol class="list-disc list-inside">
             <li>Started in July at <a
@@ -229,7 +238,8 @@ export default function Resume() {
         ]
     },
     {
-        title: '2016 and earlier',
+        title: 'Anything before 2017',
+        cardTitle: '2016 and earlier',
         cardDetailedText:[
             <ol class="list-disc list-inside">
             <li>Obtained Bachelor's Degree in Fiscal Economics at Erasmus University Rotterdam (2015)</li>

@@ -777,8 +777,6 @@ footer {
 .creditlink {
   font-size: 0.75em;
   padding: 10px 15px; }
-
-/*# sourceMappingURL=main.css.map */
 @media screen and (min-width: 40rem) and (min-height: 30rem) {
 /* main-ms.scss :: User defined styles for min width: 640px, min height: 480px */
 @keyframes fade-out-left {
@@ -1240,8 +1238,6 @@ aside > * {
 
 .pswp.playing .pswp__top-bar > .pswp__button--slideshow {
   animation: 500ms ease-out 3500ms moveright forwards; }
-
-/*# sourceMappingURL=lightbox.css.map */
 
 /* styles.css :: custom styles for the skin's Page templates */
 @keyframes fade-out-left {
@@ -1717,8 +1713,6 @@ aside > * {
   height: 300px; }
 .tumblr-page .tumblr_photo {
   height: 300px; }
-
-/*# sourceMappingURL=styles.css.map */
 
 /* White.css */
 

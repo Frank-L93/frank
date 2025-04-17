@@ -40,22 +40,22 @@ export function MobileMenu(){
         >
           <Link
             href="/projects"
-            className="block text-gray-800 hover:text-gray-900 bg-red-600 rounded-xl p-3 hover:bg-opacity-80"
+            className="block text-gray-800 hover:text-gray-900 bg-red-600 rounded-xl p-3 hover:bg-red-600/80"
           >Projects</Link>
 
           <Link
             href="/resume"
-            className="block text-gray-800 hover:text-gray-900 bg-yellow-500 rounded-xl p-3 hover:bg-opacity-80"
+            className="block text-gray-800 hover:text-gray-900 bg-yellow-500 rounded-xl p-3 hover:bg-yellow-500/80"
           >Resume</Link>
 
           <Link
             href="/chess"
-            className="block text-gray-800 hover:text-gray-900 bg-green-300 rounded-xl p-3 hover:bg-opacity-80"
+            className="block text-gray-800 hover:text-gray-900 bg-green-300 rounded-xl p-3 hover:bg-green-300/80"
           >Chess</Link>
 
           <Link
             href="/deepdives"
-            class="block text-gray-800 hover:text-gray-900 bg-blue-500 rounded-xl p-3 hover:bg-opacity-80"
+            class="block text-gray-800 hover:text-gray-900 bg-blue-500 rounded-xl p-3 hover:bg-blue-500/80"
           > DeepDives </Link>
 
         </div>
