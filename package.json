@@ -6,27 +6,27 @@
         "dev": "vite"
     },
     "devDependencies": {
-        "@headlessui/react": "^2.0.0",
-        "@inertiajs/react": "^2.0.0",
-        "@tailwindcss/forms": "^0.5.3",
-        "@tailwindcss/postcss": "^4.1.4",
-        "@tailwindcss/vite": "^4.0.0",
-        "@vitejs/plugin-react": "^4.2.0",
-        "axios": "^1.7.4",
-        "concurrently": "^9.0.1",
-        "laravel-vite-plugin": "^1.2.0",
-        "postcss": "^8.4.31",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "tailwindcss": "^4.1.4",
-        "vite": "^6.0.11"
+        "@headlessui/react": "*",
+        "@inertiajs/react": "*",
+        "@tailwindcss/forms": "*",
+        "@tailwindcss/postcss": "*",
+        "@tailwindcss/vite": "*",
+        "@vitejs/plugin-react": "*",
+        "axios": "*",
+        "concurrently": "*",
+        "laravel-vite-plugin": "*",
+        "postcss": "*",
+        "react": "*",
+        "react-dom": "*",
+        "tailwindcss": "*",
+        "vite": "*"
     },
     "dependencies": {
-        "@cyntler/react-doc-viewer": "^1.17.0",
-        "@mliebelt/pgn-viewer": "^1.6.10",
-        "office2html": "^0.0.2",
-        "react-children-utilities": "^2.10.0",
-        "react-chrono": "^2.6.1",
-        "react-icons": "^5.5.0"
+        "@cyntler/react-doc-viewer": "*",
+        "@mliebelt/pgn-viewer": "*",
+        "office2html": "*",
+        "react-children-utilities": "*",
+        "react-chrono": "*",
+        "react-icons": "*"
     }
 }

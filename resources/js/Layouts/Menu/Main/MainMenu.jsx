@@ -44,7 +44,7 @@ export function MainMenu() {
                             <Link
                                 href={item.href}
                                 className={isActive ? item.activeClassName : item.className}
-                                aria-current={isActive ? 'page' : undefined}
+                                aria-current={isActive ? 'page' : ''}
                             >
                                 {item.label}{' '}
                                 <img

@@ -1,7 +1,6 @@
 import { NavBar } from '@/Layouts/Menu/NavBar';
 import { usePage } from '@inertiajs/react';
 
-// A small helper component for footer links to keep the main component clean
 const FooterLink = ({ href, children }) => (
     <a
         href={href}
@@ -24,7 +23,7 @@ export default function GuestLayout({ children }) {
 
             {/* Main content area */}
             <main className="flex w-full flex-grow flex-col items-center p-4 sm:p-6">
-                <div className="w-full max-w-4xl overflow-hidden bg-white px-4 py-4 shadow-md sm:rounded-lg dark:bg-gray-800">
+                <div className="w-full rounded-md max-w-4xl overflow-hidden bg-white px-4 py-4 shadow-md sm:rounded-lg dark:bg-gray-800">
                     {children}
                 </div>
             </main>

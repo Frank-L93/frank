@@ -67,9 +67,10 @@ const IconLink = ({ href, Icon, name, color, imgSrc }) => {
             </a>
         );
     }
-
-    // Render a non-interactive div if there's no href
-    return <div className={className}>{content}</div>;
+    else {
+        // Render a non-interactive div if there's no href
+        return <div className={className}>{content}</div>;
+    }
 };
 
 
@@ -82,7 +83,7 @@ export default function Welcome() {
                 Hi!
             </div>
             <div className="px-2 py-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-16 sm:gap-10">
-                {/* --- "Who am I?" Card --- */}
+
                 <InfoCard title="Who am I?" subtitle="Frank, duh!">
                     <div className="flex flex-col sm:flex-row items-center text-left gap-4">
                         <img
@@ -96,14 +97,13 @@ export default function Welcome() {
                     </div>
                 </InfoCard>
 
-                {/* --- "My Likes?" Card (Data-Driven) --- */}
                 <InfoCard title="My Likes?" subtitle="Many things!">
                     <div className="grid grid-cols-3 gap-2">
                         {likesData.map(like => <IconLink key={like.name} {...like} />)}
                     </div>
                 </InfoCard>
 
-                {/* --- "My Socials?" Card (Data-Driven) --- */}
+
                 <InfoCard title="My Socials?" subtitle="Uh, oh">
                     <div className="grid grid-cols-3 gap-2">
                         {socialsData.map(social => <IconLink key={social.name} {...social} />)}
