@@ -47,7 +47,7 @@ class ChessController
     {
 
         $api = curl_init();
-        curl_setopt($api, CURLOPT_URL, "https://lichess.org/api/user/Helikopter/current-game?pgnInJson=true&clocks=false");
+        curl_setopt($api, CURLOPT_URL, "https://lichess.org/api/games/user/Helikopter?max=1&ongoing=true&pgnInJson=true&clocks=false");
 
         curl_setopt($api, CURLOPT_HTTPHEADER, array("Content-Type: application/json"));
         curl_setopt($api, CURLOPT_RETURNTRANSFER, TRUE);
