@@ -7,18 +7,18 @@
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <meta name="description" content="Explore the projects, resume, and technical deep dives of Frank Lambregts, an Information Analyst and Laravel developer passionate about chess and process optimization.">
-    <meta name="keywords" content="Frank Lambregts, Information Analyst, Laravel, PHP, React, Statamic, Chess, Portfolio, Developer">
+    <meta name="description" content="Explore the projects, resume, and deep dives of Frank Lambregts, an Information Analyst and Laravel developer passionate about chess and process optimization. I am a fan of Statamic. And I organize chess events.">
+    <meta name="keywords" content="Frank Lambregts, Information Analyst, Laravel, PHP, Statamic, Chess, Organizer, Portfolio, Developer, Requirements, Engineer">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
     <meta property="og:site_name" content="Frank Lambregts">
     <meta property="og:title" content="Frank Lambregts - Information Analyst & Developer">
-    <meta property="og:description" content="Explore the projects, resume, and technical deep dives of Frank Lambregts.">
+    <meta property="og:description" content="Explore the projects, resume, and deep dives of Frank Lambregts.">
     <meta property="og:image" content="{{ url('/frank-social-card.png') }}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ url()->current() }}">
     <meta name="twitter:title" content="Frank Lambregts - Information Analyst & Developer">
-    <meta name="twitter:description" content="Explore the projects, resume, and technical deep dives of Frank Lambregts.">
+    <meta name="twitter:description" content="Explore the projects, resume, and deep dives of Frank Lambregts.">
     <meta name="twitter:image" content="{{ url('/frank-social-card.png') }}">
     <title inertia>{{ config('app.name', 'Frank Lambregts') }}</title>
     <link rel="preconnect" href="https://fonts.bunny.net">

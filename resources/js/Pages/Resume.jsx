@@ -20,8 +20,9 @@ export default function Resume() {
                         <>
                             <span><span className="mr-2">•</span>Working for <a href="https://stedin.net" target="_blank">Stedin</a> (until 14th of February)</span><br />
                             <span><span className="mr-2">•</span>Started as Informatie Analist @ <a href="https://vgz.nl" target="_blank">VGZ</a></span><br />
-                            <span><span className="mr-2">•</span>Certified: </span><br />
+                            <span><span className="mr-2">•</span>Certified: IREB CPRE Foundation Level (August 2025)</span><br />
                             <span><span className="mr-2">•</span>Competition Leader (Seniors) & Chess Trainer (Juniors) @ <a href="https://depion.nl" target="_blank">S.V. De Pion</a> until the end of the season 2024-2025</span><br />
+                            <span><span className="mr-2">•</span>Chairman @ <a href="https://sgking.nl" target="_blank">SG KiNG</a> as of the start of season 2025-2026</span><br />
                             <span><span className="mr-2">•</span>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a></span><br />
                             <span><span className="mr-2">•</span>Continues improvement on SG KiNGs website (Statamic)</span><br />
                         </>
