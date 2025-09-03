@@ -13,6 +13,9 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/harry-potter', function(){
+    return view('harry-potter');
+});
 Route::get('/resume', function(){
     return Inertia::render('Resume', [
         'year' => date('Y'),
