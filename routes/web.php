@@ -39,8 +39,10 @@ Route::get('/schaakles/{filename}', function($filename){
     ]);
 })->name('schaakles');
 
-
-
+Route::get('/individual', [SwissMasterController::class, 'individualIndex'])->name('individual');
+Route::get('/individual/{path1}/{path2?}', [SwissMasterController::class, 'individual'])->where(['path1' => '[a-zA-Z0-9]+', 'path2' => '[a-zA-Z0-9]+']);
+Route::get('/individual/{path1}', [SwissMasterController::class, 'individual'])->where(['path1' => '[a-zA-Z0-9]+']);
+Route::get('/teams', [SwissMasterController::class, 'teamsIndex'])->name('teams');
 Route::get('/teams/{path1}/{path2?}', [SwissMasterController::class, 'index'])->where(['path1' => '[a-zA-Z0-9]+', 'path2' => '[a-zA-Z0-9]+']);
 Route::get('/teams/{path1}', [SwissMasterController::class, 'index'])->where(['path1' => '[a-zA-Z0-9]+']);
 
