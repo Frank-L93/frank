@@ -1,9 +1,9 @@
-Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Omnes, Zoë";5.0;NED;F;1455;2090;+0.85;19.0;15.0
-2;"Leenen, Pomme";5.0;NED;F;1309;1398;+0.24;16.0;11.0
-3;"Mohan, Manaswini";4.0;NED;F;0;1331;1331;19.0;11.0
-4;"Penugurti, Advika Satya";3.0;FID;F;1340;1203;-0.54;18.0; 4.0
-5;"Udhaya Kumar, Medhini";3.0;NED;F;0;1203;1203;18.0; 4.0
-6;"Chaudhuri, Aarini";3.0;NED;F;1220;598;-0.55;16.0; 5.0
-7;"Kannan, Aishwarya";1.0;NED;F;0;531; 531;19.0; 0.0
-8;"Rijal, Luna";0.0;NED;F;0 *;490; 490;19.0; 0.0
+Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;Mut-Res;BH;SB
+1;"Omnes, Zoë";6.0;NED;F;1455;2090;+0.85;1.0;22.0;17.0
+2;"Leenen, Pomme";6.0;NED;F;1309;1463;+0.62;0.0;22.0;16.0
+3;"Mohan, Manaswini";5.0;NED;F;0;1331;1331;;23.0;14.0
+4;"Penugurti, Advika Satya";4.0;FID;F;1340;1203;-0.54;;24.0; 7.0
+5;"Chaudhuri, Aarini";3.0;NED;F;1220;568;-0.93;;25.0; 6.0
+6;"Udhaya Kumar, Medhini";3.0;NED;F;0;1138;1138;;25.0; 4.0
+7;"Kannan, Aishwarya";1.0;NED;F;0;531; 531;;27.0; 0.0
+8;"Rijal, Luna";0.0;NED;F;0 *;531; 531;;28.0; 0.0
