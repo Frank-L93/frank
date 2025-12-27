@@ -58,6 +58,18 @@ function go_url( url ) {
 </tr>
 </table>
 </form>
+<td class="noborder"><form name="selecter2">
+<table cellspacing=0>
+<tr><td><span class="MenuListBox">List by flag<BR></span>
+<select name="select2" size=1>
+<option value=none>----------</option>
+<option value="flag/A.html">A</option>
+<option value="flag/B.html">B</option>
+<option value="flag/m.html">m</option>
+</select>
+<input type='button' value='Go' onclick='go_url( document.selecter2.select2.options[document.selecter2.select2.selectedIndex].value )'></td>
+</table>
+</form>
 <td class="noborder"><a href='special/bestfemale.html' target='frmSwiss'>Females</a><BR>
 <a href='special/crosstable.html' target='frmSwiss'>Cross table</a>
 </td></tr></table>
