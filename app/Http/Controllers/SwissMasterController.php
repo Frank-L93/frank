@@ -126,7 +126,7 @@ class SwissMasterController
         return Inertia::render('Ranking', [
             'data' => $data,
         ]);
-
+    }
         public function teamsIndex(){
             return Inertia::render('SwissMasterTeamsIndex');
         }
@@ -134,5 +134,4 @@ class SwissMasterController
         public function individualIndex(){
             return Inertia::render('SwissMasterIndividualIndex');
         }
-    }
 }
