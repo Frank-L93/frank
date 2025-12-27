@@ -1,0 +1,8 @@
+Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
+1;1;8809306;"Leenen, Boyd";2096;1.0;*;1.0;1849;"Lalkota, Sai Pranav Tejas";8930592;4
+2;7;8890805;"Van Houtert, Lennart";1737;1.0;*;1.0;1883;"Huang, Vincent";8973327;2
+3;3;8990377;"Zhou, Yanyang";1867;1.0;*;1.0;1784;"Bruls, Sven";9028008;6
+4;5;8924927;"Verstegen, Jonas";1830;0.5;*;0.0;1505;"Zhang, Eric";8746727;8
+5;9;9021133;"Methlouthi, Aly";1386;0.0;*;0.5;0;"Leenen, Bing";8902355;12
+6;13;9093799;"Morgan, Finn";0;0.0;*;0.0;1334;"Lalkota, Srikar";8974768;10
+7;11;9013829;"Khuat Duy, Vincent";0;0.0;*;0.0;0;"Vinothkumar, Dhanvanth";9100630;14
