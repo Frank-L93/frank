@@ -1,5 +1,8 @@
 Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
-1;3;8888583;"Young, Scott";1833;1.5;*;1.0;1548;"Gang, Kevin Wan Ze";8710284;8
-2;4;8876923;"Esch, Nolan";0;0.0;*;0.0;0;"Kursten, Gwen";8784600;2
-3;5;8831482;"Hompes, Roel";0;1.0;*;2.0;1718;"Yildirim, Azra";8712627;1
-4;6;9105250;"Patil, Advay";0;1.0;*;1.5;1952;"Vogels, Mathijs";8845001;7
+1;4;8930592;"Lalkota, Sai Pranav Tejas";1849;3.0;*;3.0;1784;"Bruls, Sven";9028008;6
+2;2;8973327;"Huang, Vincent";1883;3.0;*;2.5;1867;"Zhou, Yanyang";8990377;3
+3;5;8924927;"Verstegen, Jonas";1830;2.0;*;3.0;2096;"Leenen, Boyd";8809306;1
+4;7;8890805;"Van Houtert, Lennart";1737;2.0;*;2.0;1386;"Methlouthi, Aly";9021133;9
+5;10;8974768;"Lalkota, Srikar";1334;2.0;*;2.0;1505;"Zhang, Eric";8746727;8
+6;11;9013829;"Khuat Duy, Vincent";0;1.0;*;1.5;0;"Leenen, Bing";8902355;12
+-;13;9093799;"Morgan, Finn";0;1.0;1;;;pairing allocated bye
