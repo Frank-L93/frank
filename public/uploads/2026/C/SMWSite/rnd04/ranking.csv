@@ -1,9 +1,14 @@
 Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Omnes, Zoë";4.0;NED;F;1455;2080;+0.55; 6.0; 6.0
-2;"Leenen, Pomme";4.0;NED;F;1309;2140;+0.54; 5.0; 5.0
-3;"Udhaya Kumar, Medhini";2.0;NED;F;0;1203;1203;11.0; 3.0
-4;"Chaudhuri, Aarini";2.0;NED;F;1220;655;-0.21; 8.0; 2.0
-5;"Mohan, Manaswini";2.0;NED;F;0;1165;1165; 7.0; 1.0
-6;"Penugurti, Advika Satya";1.0;FID;F;1340;582;-0.88;11.0; 1.0
-7;"Kannan, Aishwarya";1.0;NED;F;0;598;0; 7.0; 0.0
-8;"Rijal, Luna";0.0;NED;F;0 *;465;0; 9.0; 0.0
+1;"Leenen, Boyd";2.5;NED;M;2096;2049;-0.09; 5.0; 3.75
+2;"Huang, Vincent";2.5;NED;M;1883;1956;+0.31; 4.5; 4.0
+3;"Lalkota, Sai Pranav Tejas";2.5;NED;M;1849;2110;+0.66; 4.0; 2.75
+4;"Bruls, Sven";2.0;NED;M;1784;1982;+0.47; 5.5; 3.0
+5;"Methlouthi, Aly";2.0;NED;M;1386;986;-0.08; 4.5; 2.0
+6;"Zhou, Yanyang";2.0;NED;M;1867;1626;-0.53; 3.5; 1.5
+7;"Van Houtert, Lennart";1.5;NED;M;1737;1673;-0.15; 6.5; 2.75
+8;"Leenen, Bing";1.5;NED;M;0;1244;1244; 5.0; 1.25
+9;"Verstegen, Jonas";1.5;NED;M;1830;1694;-0.30; 4.0; 1.0
+10;"Khuat Duy, Vincent";1.0;NED;M;0;1058;1058; 5.5; 1.0
+11;"Morgan, Finn";1.0;NED;M;0;1376;1376; 5.0; 1.0
+12;"Zhang, Eric";1.0;NED;M;1505;1068;-0.21; 4.5; 0.5
+13;"Lalkota, Srikar";1.0;NED;M;1334;934;-0.08; 4.0; 1.0
