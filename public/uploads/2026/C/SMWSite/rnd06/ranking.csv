@@ -1,14 +1,14 @@
-Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Leenen, Boyd";4.0;NED;M;2096;2048;-0.18;15.5;11.75
-2;"Lalkota, Sai Pranav Tejas";4.0;NED;M;1849;2064;+1.10;12.5; 9.0
-3;"Huang, Vincent";3.5;NED;M;1883;1952;+0.56;14.0; 9.5
-4;"Verstegen, Jonas";3.0;NED;M;1830;1718;-0.61;16.0; 6.5
-5;"Bruls, Sven";3.0;NED;M;1784;1800;+0.14;15.0; 7.0
-6;"Zhou, Yanyang";3.0;NED;M;1867;1746;-0.54;13.0; 6.25
-7;"Zhang, Eric";3.0;NED;M;1505;1565;+0.06;11.5; 5.0
-8;"Van Houtert, Lennart";2.5;NED;M;1737;1650;-0.41;15.0; 6.75
-9;"Methlouthi, Aly";2.5;NED;M;1386;1496;+0.23;12.0; 4.5
-10;"Leenen, Bing";2.5;NED;M;0;1244;1244; 9.0; 3.25
-11;"Morgan, Finn";2.0;NED;M;0;1309;1309;11.5; 3.5
-12;"Lalkota, Srikar";2.0;NED;M;1334;820;-0.35; 9.5; 2.5
-13;"Khuat Duy, Vincent";1.0;NED;M;0;883; 883;13.0; 2.0
+Rank;Name;Flags;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
+1;"Leenen, Boyd";;5.0;NED;M;2096;2091;+0.03;20.5;16.25
+2;"Huang, Vincent";;4.5;NED;M;1883;2003;+1.01;21.0;15.5
+3;"Bruls, Sven";;4.0;NED;M;1784;1813;+0.30;20.5;11.5
+4;"Lalkota, Sai Pranav Tejas";;4.0;NED;M;1849;1945;+0.65;20.0;11.5
+5;"Van Houtert, Lennart";;3.5;NED;M;1737;1650;-0.41;19.0; 9.75
+6;"Methlouthi, Aly";;3.5;NED;M;1386;1573;+0.66;18.0; 8.0
+7;"Zhou, Yanyang";;3.0;NED;M;1867;1744;-0.75;20.0; 6.75
+8;"Verstegen, Jonas";;3.0;NED;M;1830;1718;-0.61;19.0; 7.0
+9;"Zhang, Eric";;3.0;NED;M;1505;1520;-0.10;17.5; 6.0
+10;"Morgan, Finn";;3.0;NED;M;0;1309;1309;14.0; 4.0
+11;"Leenen, Bing";;2.5;NED;M;0;1250;1250;13.0; 3.25
+12;"Lalkota, Srikar";;2.0;NED;M;1334;742;-0.78;14.0; 2.5
+13;"Khuat Duy, Vincent";;1.0;NED;M;0;883; 883;15.5; 2.0
