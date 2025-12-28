@@ -1,9 +1,14 @@
-Rank;Name;Flags;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Yildirim, Azra";Am;2.5;NED;F;1718;1884;+0.44; 4.0; 3.0
-2;"Vogels, Mathijs";A;2.5;NED;M;1952;1833;-0.16; 2.0; 1.0
-3;"Young, Scott";A;2.0;NED;M;1833;1835;+0.00; 6.5; 4.0
-4;"Gang, Kevin Wan Ze";B;2.0;NED;M;1548;918;-0.28; 4.0; 1.5
-5;"Hompes, Roel";B;1.5;NED;M;0;748;+0.50; 3.5; 0.75
-6;"Patil, Advay";B;1.5;NED;M;0;1033;+1.00; 3.5; 0.75
-7;"Kursten, Gwen";Am;0.0;NED;F;0;939; 939; 7.0; 0.0
-8;"Esch, Nolan";A;0.0;NED;M;0;1152;+0.50; 5.5; 0.0
+Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
+1;"Leenen, Boyd";4.0;NED;M;2096;2048;-0.18;15.5;11.75
+2;"Lalkota, Sai Pranav Tejas";4.0;NED;M;1849;2064;+1.10;12.5; 9.0
+3;"Huang, Vincent";3.5;NED;M;1883;1952;+0.56;14.0; 9.5
+4;"Verstegen, Jonas";3.0;NED;M;1830;1718;-0.61;16.0; 6.5
+5;"Bruls, Sven";3.0;NED;M;1784;1800;+0.14;15.0; 7.0
+6;"Zhou, Yanyang";3.0;NED;M;1867;1746;-0.54;13.0; 6.25
+7;"Zhang, Eric";3.0;NED;M;1505;1565;+0.06;11.5; 5.0
+8;"Van Houtert, Lennart";2.5;NED;M;1737;1650;-0.41;15.0; 6.75
+9;"Methlouthi, Aly";2.5;NED;M;1386;1496;+0.23;12.0; 4.5
+10;"Leenen, Bing";2.5;NED;M;0;1244;1244; 9.0; 3.25
+11;"Morgan, Finn";2.0;NED;M;0;1309;1309;11.5; 3.5
+12;"Lalkota, Srikar";2.0;NED;M;1334;820;-0.35; 9.5; 2.5
+13;"Khuat Duy, Vincent";1.0;NED;M;0;883; 883;13.0; 2.0
