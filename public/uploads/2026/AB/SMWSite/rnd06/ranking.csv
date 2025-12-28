@@ -1,9 +1,9 @@
-Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Vogels, Mathijs";4.5;NED;M;1952;1833;-0.16;10.0; 8.0
-2;"Young, Scott";4.0;NED;M;1833;1864;+0.16;12.5; 8.5
-3;"Yildirim, Azra";3.5;NED;F;1718;1884;+0.44; 9.5; 5.0
-4;"Patil, Advay";2.5;NED;M;0;1653;1653;14.0; 4.25
-5;"Hompes, Roel";2.5;NED;M;0;1614;1614;13.5; 5.75
-6;"Gang, Kevin Wan Ze";2.0;NED;M;1548;976;-0.44;12.5; 2.5
-7;"Esch, Nolan";1.0;NED;M;0;1035;1035;13.0; 0.0
-8;"Kursten, Gwen";0.0;NED;F;0;963; 963;15.0; 0.0
+Rank;Name;Flags;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
+1;"Vogels, Mathijs";A;5.5;NED;M;1952;1886;-0.08;15.0;12.5
+2;"Young, Scott";A;5.0;NED;M;1833;1864;+0.16;15.5;11.0
+3;"Patil, Advay";B;3.5;NED;M;0;1763;1763;20.5; 8.25
+4;"Hompes, Roel";B;3.5;NED;M;0;1614;1614;15.5; 6.25
+5;"Yildirim, Azra";Am;3.5;NED;F;1718;1884;+0.44;15.0; 5.5
+6;"Gang, Kevin Wan Ze";B;2.0;NED;M;1548;1033;-0.52;21.0; 3.5
+7;"Esch, Nolan";A;1.0;NED;M;0;1034;1034;21.0; 0.0
+8;"Kursten, Gwen";Am;0.0;NED;F;0;963; 963;20.5; 0.0
