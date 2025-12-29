@@ -1,19 +1,19 @@
 Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Brik, Yazan";2.0;NED;M;1321;1870;+0.44; 2.0; 2.0
-2;"Do, Leo";2.0;NED;M;1216;2158;+0.69; 2.0; 2.0
-3;"Leenen, Bing";2.0;NED;M;1541;2004;+0.25; 1.0; 1.0
-4;"Ajvazian, Alex";2.0;NED;M;1189;1883;+0.36; 0.0; 0.0
-5;"Altay, Cagan Deniz";1.5;NED;M;1484;1392;-0.14; 2.5; 1.75
-6;"Traas, Boaz";1.5;NED;M;1314;1392;+0.30; 1.5; 0.75
-7;"Küçük, Çinar";1.0;NED;M;1358;1127;-0.56; 3.0; 1.0
-8;"Methlouthi, Youssef";1.0;NED;M;1266;741;-0.17; 2.0; 0.0
-9;"Lalkota, Srikar";1.0;NED;M;1218;1070;-0.28; 2.0; 0.0
-10;"Hart, Sage";1.0;NED;M;916;516;-0.08; 2.0; 0.0
-11;"Metha, Kabir";1.0;NED;M;0;1015;+0.50; 2.0; 0.0
-12;"Marupudi, Maurya Kiran";1.0;NED;M;1038;1038;+0.00; 1.5; 0.0
-13;"Van der Aalst, Sevein";1.0;NED;M;1038;558;-0.13; 1.0; 0.0
-14;"Mysore, Dhyaan";0.0;NED;M;1083;536;-0.44; 4.0; 0.0
-15;"Ramidi,Svaksha Idhayan";0.0;NED;M;0 *;253; 253; 3.0; 0.0
-16;"Gupta, Kiaan";0.0;NED;M;814;414;-0.08; 2.5; 0.0
-17;"Gang, Max Wan Xi";0.0;NED;M;717 *;352; 352; 2.0; 0.0
-18;"Sahu, Chirayush";0.0;NED;M;460;60;-0.16; 2.0; 0.0
+1;"Leenen, Bing";3.0;NED;M;1541;2008;+0.38; 4.0; 4.0
+2;"Ajvazian, Alex";3.0;NED;M;1189;2002;+1.04; 4.0; 4.0
+3;"Altay, Cagan Deniz";2.5;NED;M;1484;1525;+0.19; 4.5; 3.25
+4;"Traas, Boaz";2.5;NED;M;1314;1494;+0.73; 3.5; 2.25
+5;"Brik, Yazan";2.0;NED;M;1321;1234;-0.24; 7.0; 4.0
+6;"Do, Leo";2.0;NED;M;1216;1450;+0.56; 5.5; 2.5
+7;"Hart, Sage";2.0;NED;M;916;1177;+0.59; 4.0; 2.0
+8;"Lalkota, Srikar";2.0;NED;M;1218;1184;-0.02; 3.5; 1.5
+9;"Metha, Kabir";1.5;NED;M;0;830; 830; 2.5; 0.25
+10;"Mysore, Dhyaan";1.0;NED;M;1083;536;-0.44; 6.0; 0.0
+11;"Küçük, Çinar";1.0;NED;M;1358;1121;-0.89; 5.5; 1.0
+12;"Methlouthi, Youssef";1.0;NED;M;1266;628;-0.60; 5.5; 0.0
+13;"Marupudi, Maurya Kiran";1.0;NED;M;1038;872;-0.67; 5.0; 0.5
+14;"Ramidi,Svaksha Idhayan";1.0;NED;M;0 *;848; 848; 5.0; 0.0
+15;"Van der Aalst, Sevein";1.0;NED;M;1038;488;-0.39; 3.0; 0.0
+16;"Sahu, Chirayush";0.5;NED;M;460;60;-0.16; 4.5; 0.75
+17;"Gupta, Kiaan";0.0;NED;M;814;414;-0.08; 5.0; 0.0
+18;"Gang, Max Wan Xi";0.0;NED;M;717 *;329; 329; 3.0; 0.0

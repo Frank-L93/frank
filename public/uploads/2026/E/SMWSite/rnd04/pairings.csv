@@ -1,8 +1,10 @@
 Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
-1;1;8809306;"Leenen, Boyd";2096;2.5;1/2-1/2;2.5;1883;"Huang, Vincent";8973327;2
-2;3;8990377;"Zhou, Yanyang";1867;2.0;1/2-1/2;2.5;1849;"Lalkota, Sai Pranav Tejas";8930592;4
-3;9;9021133;"Methlouthi, Aly";1386;2.0;0-1;2.0;1784;"Bruls, Sven";9028008;6
-4;5;8924927;"Verstegen, Jonas";1830;1.5;1/2-1/2;1.5;1737;"Van Houtert, Lennart";8890805;7
-5;8;8746727;"Zhang, Eric";1505;1.0;1-0;1.0;0;"Morgan, Finn";9093799;13
-6;10;8974768;"Lalkota, Srikar";1334;1.0;1-0;1.0;0;"Khuat Duy, Vincent";9013829;11
--;12;8902355;"Leenen, Bing";0;0.5;1;;;pairing allocated bye
+1;9;9074824;"Ajvazian, Alex";1189;3.0;*;3.0;1541;"Leenen, Bing";8902355;1
+2;2;9013796;"Altay, Cagan Deniz";1484;2.5;*;2.0;1321;"Brik, Yazan";9095779;4
+3;8;9100454;"Do, Leo";1216;2.0;*;2.5;1314;"Traas, Boaz";9085164;5
+4;13;9123906;"Hart, Sage";916;2.0;*;2.0;1218;"Lalkota, Srikar";8974768;7
+5;12;9058049;"Van der Aalst, Sevein";1038;1.0;*;1.5;0;"Metha, Kabir";9141418;17
+6;10;9103347;"Mysore, Dhyaan";1083;1.0;*;1.0;1358;"Küçük, Çinar";9116855;3
+7;6;9021144;"Methlouthi, Youssef";1266;1.0;*;1.0;1038;"Marupudi, Maurya Kiran";9100641;11
+8;16;9114864;"Sahu, Chirayush";460;0.5;*;1.0;0;"Ramidi,Svaksha Idhayan";9147358;18
+9;14;9113544;"Gupta, Kiaan";814;0.0;*;0.0;717;"Gang, Max Wan Xi";9025951;15
