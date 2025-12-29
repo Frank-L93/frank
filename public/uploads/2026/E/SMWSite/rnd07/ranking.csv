@@ -1,14 +1,19 @@
 Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Leenen, Boyd";6.0;NED;M;2096;2116;+0.13;28.5;23.5
-2;"Huang, Vincent";5.0;NED;M;1883;1965;+0.87;29.5;20.75
-3;"Lalkota, Sai Pranav Tejas";5.0;NED;M;1849;1928;+0.73;26.5;16.5
-4;"Bruls, Sven";4.5;NED;M;1784;1821;+0.44;29.5;16.0
-5;"Zhou, Yanyang";4.0;NED;M;1867;1744;-0.75;26.0;10.5
-6;"Zhang, Eric";4.0;NED;M;1505;1520;-0.10;23.0; 9.0
-7;"Verstegen, Jonas";4.0;NED;M;1830;1718;-0.61;22.5; 9.0
-8;"Van Houtert, Lennart";3.5;NED;M;1737;1660;-0.51;28.0;11.0
-9;"Methlouthi, Aly";3.5;NED;M;1386;1536;+0.58;24.5; 8.5
-10;"Morgan, Finn";3.0;NED;M;0;1335;1335;20.5; 5.0
-11;"Lalkota, Srikar";3.0;NED;M;1334;742;-0.78;18.0; 4.5
-12;"Leenen, Bing";2.5;NED;M;0;1192;1192;18.5; 4.25
-13;"Khuat Duy, Vincent";1.0;NED;M;0;920; 920;22.0; 2.5
+1;"Altay, Cagan Deniz";5.5;NED;M;1484;1702;+1.20;22.5;20.25
+2;"Traas, Boaz";4.5;NED;M;1314;1357;+0.51;21.5;14.75
+3;"Brik, Yazan";4.0;NED;M;1321;1357;+0.42;22.5;13.0
+4;"Hart, Sage";4.0;NED;M;916;1312;+2.28;21.5;13.5
+5;"Ajvazian, Alex";4.0;NED;M;1189;1421;+1.45;21.0;11.0
+6;"Küçük, Çinar";4.0;NED;M;1358;1299;-0.27;19.5;11.0
+7;"Lalkota, Srikar";4.0;NED;M;1218;1190;-0.05;16.5; 8.5
+8;"Leenen, Bing";3.0;NED;M;1541;1270;-1.87;21.5; 8.0
+9;"Do, Leo";3.0;NED;M;1216;1165;-0.31;20.0; 8.5
+10;"Marupudi, Maurya Kiran";3.0;NED;M;1038;1018;-0.16;18.0; 5.5
+11;"Methlouthi, Youssef";3.0;NED;M;1266;1120;-0.76;16.5; 5.0
+12;"Metha, Kabir";2.5;NED;M;0;773; 773;10.5; 2.75
+13;"Ramidi,Svaksha Idhayan";2.0;NED;M;0 *;852; 852;17.5; 3.5
+14;"Mysore, Dhyaan";2.0;NED;M;1083;512;-0.93;17.5; 2.5
+15;"Van der Aalst, Sevein";2.0;NED;M;1038;434;-1.05;17.5; 2.5
+16;"Gupta, Kiaan";2.0;NED;M;814;779;-0.19;13.5; 1.5
+17;"Sahu, Chirayush";1.5;NED;M;460;45;-0.27;13.5; 1.25
+18;"Gang, Max Wan Xi";0.0;NED;M;717 *;132; 132;13.0; 0.0
