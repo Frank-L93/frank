@@ -1,10 +1,10 @@
 Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
-1;16;9021144;"Methlouthi, Youssef";1266;1.0;*;1.0;1541;"Leenen, Bing";8902355;1
-2;10;9013796;"Altay, Cagan Deniz";1484;1.0;*;1.0;1314;"Traas, Boaz";9085164;12
-3;11;9100454;"Do, Leo";1216;1.0;*;1.0;1358;"Küçük, Çinar";9116855;3
-4;18;9095779;"Brik, Yazan";1321;1.0;*;1.0;1218;"Lalkota, Srikar";8974768;7
-5;8;9103347;"Mysore, Dhyaan";1083;0.0;*;1.0;1189;"Ajvazian, Alex";9074824;15
-6;4;9114864;"Sahu, Chirayush";460;0.0;*;0.0;1038;"Marupudi, Maurya Kiran";9100641;5
-7;14;9058049;"Van der Aalst, Sevein";1038;0.0;*;0.0;717;"Gang, Max Wan Xi";9025951;2
-8;17;9147358;"Ramidi,Svaksha Idhayan";0;0.0;*;0.0;916;"Hart, Sage";9123906;9
-9;13;9113544;"Gupta, Kiaan";814;0.0;*;0.0;0;"Metha, Kabir";9141418;6
+1;6;9021144;"Methlouthi, Youssef";1266;1.0;0-1;1.0;1541;"Leenen, Bing";8902355;1
+2;2;9013796;"Altay, Cagan Deniz";1484;1.0;1/2-1/2;1.0;1314;"Traas, Boaz";9085164;5
+3;8;9100454;"Do, Leo";1216;1.0;1-0;1.0;1358;"Küçük, Çinar";9116855;3
+4;4;9095779;"Brik, Yazan";1321;1.0;1-0;1.0;1218;"Lalkota, Srikar";8974768;7
+5;10;9103347;"Mysore, Dhyaan";1083;0.0;0-1;1.0;1189;"Ajvazian, Alex";9074824;9
+6;16;9114864;"Sahu, Chirayush";460;0.0;0-1;0.0;1038;"Marupudi, Maurya Kiran";9100641;11
+7;12;9058049;"Van der Aalst, Sevein";1038;0.0;1-0;0.0;717;"Gang, Max Wan Xi";9025951;15
+8;18;9147358;"Ramidi,Svaksha Idhayan";0;0.0;0-1;0.0;916;"Hart, Sage";9123906;13
+9;14;9113544;"Gupta, Kiaan";814;0.0;0-1;0.0;0;"Metha, Kabir";9141418;17
