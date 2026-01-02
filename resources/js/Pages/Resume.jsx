@@ -13,8 +13,21 @@ export default function Resume() {
             </div>
 
             <Chrono items={[
-                {
+                  {
                     title: 'This year',
+                    cardTitle: '2026',
+                    cardDetailedText: (
+                        <>
+                            <span><span className="mr-2">•</span>Working as Informatie Analist @ <a href="https://vgz.nl" target="_blank">VGZ</a></span><br />
+                            <span><span className="mr-2">•</span>Certified: </span><br />
+                            <span><span className="mr-2">•</span>Chairman @ <a href="https://sgking.nl" target="_blank">SG KiNG</a></span><br />
+                            <span><span className="mr-2">•</span>Youth Leader @ <a href="https://nbsb.nl" target="_blank">NBSB</a></span><br />
+                            <span><span className="mr-2">•</span>Continues improvement on SG KiNGs website (Statamic)</span><br />
+                        </>
+                    )
+                },
+                {
+                    title: 'Last year',
                     cardTitle: '2025',
                     cardDetailedText: (
                         <>
@@ -29,7 +42,7 @@ export default function Resume() {
                     )
                 },
                 {
-                    title: 'Last Year',
+                    title: '2024',
                     cardTitle: '2024',
                     cardDetailedText: (
                         <>
