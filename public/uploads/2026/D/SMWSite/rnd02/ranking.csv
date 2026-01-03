@@ -1,19 +1,22 @@
-Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Brik, Yazan";2.0;NED;M;1321;1870;+0.44; 2.0; 2.0
-2;"Do, Leo";2.0;NED;M;1216;2158;+0.69; 2.0; 2.0
-3;"Leenen, Bing";2.0;NED;M;1541;2004;+0.25; 1.0; 1.0
-4;"Ajvazian, Alex";2.0;NED;M;1189;1883;+0.36; 0.0; 0.0
-5;"Altay, Cagan Deniz";1.5;NED;M;1484;1392;-0.14; 2.5; 1.75
-6;"Traas, Boaz";1.5;NED;M;1314;1392;+0.30; 1.5; 0.75
-7;"Küçük, Çinar";1.0;NED;M;1358;1127;-0.56; 3.0; 1.0
-8;"Methlouthi, Youssef";1.0;NED;M;1266;741;-0.17; 2.0; 0.0
-9;"Lalkota, Srikar";1.0;NED;M;1218;1070;-0.28; 2.0; 0.0
-10;"Hart, Sage";1.0;NED;M;916;516;-0.08; 2.0; 0.0
-11;"Metha, Kabir";1.0;NED;M;0;1015;0; 2.0; 0.0
-12;"Marupudi, Maurya Kiran";1.0;NED;M;1038;1038;+0.00; 1.5; 0.0
-13;"Van der Aalst, Sevein";1.0;NED;M;1038;558;-0.13; 1.0; 0.0
-14;"Mysore, Dhyaan";0.0;NED;M;1083;536;-0.44; 4.0; 0.0
-15;"Ramidi,Svaksha Idhayan";0.0;NED;M;0 *;253;0; 3.0; 0.0
-16;"Gupta, Kiaan";0.0;NED;M;814;414;-0.08; 2.5; 0.0
-17;"Gang, Max Wan Xi";0.0;NED;M;717 *;352;0; 2.0; 0.0
-18;"Sahu, Chirayush";0.0;NED;M;460;60;-0.16; 2.0; 0.0
+Rank;Name;Flags;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
+1;"Roghair, Tommie";;1.0;NED;M;1211;685;-0.17; 1.0; 0.0
+2;"Methlouthi, Aly";;1.0;NED;M;1485;2011;+0.17; 0.5; 0.5
+3;"Udhaya Kumar, Medhini";;1.0;NED;F;1167;0;+0.00; 0.5; 0.5
+4;"Zhou, Yanyang";;1.0;NED;M;1845;2245;+0.08; 0.0; 0.0
+5;"Kruger, Derik";;1.0;NED;M;1693;2205;+0.16; 0.0; 0.0
+6;"Patil, Anay";;1.0;NED;M;1686;2190;+0.15; 0.0; 0.0
+7;"Plukkel, Guus";;1.0;NED;M;1674;2168;+0.14; 0.0; 0.0
+8;"Kokkula, Advaith Krishna";;1.0;NED;M;1636;2131;+0.14; 0.0; 0.0
+9;"Pata, Teodor-Stefan";;1.0;NED;M;1615;2052;+0.10; 0.0; 0.0
+10;"Ng, Thomas";;1.0;NED;M;1533;2041;+0.15; 0.0; 0.0
+11;"Li, Vince";;1.0;NED;M;1481;2681;+0.92; 0.0; 0.0
+12;"Gafurov, Damir";;0.5;NED;M;1524;1228;-0.35; 0.5; 0.25
+13;"Lalkota, Srikar";;0.5;NED;M;1228;1524;+0.35; 0.5; 0.25
+14;"Ma, Tim";;0.0;NED;M;1990;790;-0.92; 1.0; 0.0
+15;"Penugurti, Advika Satya";;0.0;FID;F;1412;1012;-0.08; 1.0; 0.0
+16;"Knippels, Tim";;0.0;NED;M;1405;893;-0.16; 1.0; 0.0
+17;"Jin, Hongyi";;0.0;NED;M;1390;886;-0.15; 1.0; 0.0
+18;"Küçük, Çinar";;0.0;NED;M;1368;874;-0.14; 1.0; 0.0
+19;"Brik, Yazan";;0.0;NED;M;1331;836;-0.14; 1.0; 0.0
+20;"Gang, Luke Wan Cheng";;0.0;NED;M;1252;815;-0.10; 1.0; 0.0
+21;"Ding, David";;0.0;NED;M;1241;733;-0.15; 1.0; 0.0

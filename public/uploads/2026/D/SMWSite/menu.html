@@ -26,10 +26,24 @@ function go_url( url ) {
 <tr><td class='noborder'><table cellspacing=0>
 <tr class='round'><th>Pairings</th>
 <td><a href='rnd01/pairings.html' target='frmSwiss'>1</a></td>
+<td><a href='rnd02/pairings.html' target='frmSwiss'>2</a></td>
 </tr>
 <tr class='round'><th>Rankings</th>
 <td><a href='rnd01/ranking.html' target='frmSwiss'>1</a></td>
-</tr></table></td><td class='noborder'><form name='selecter1'>
+<td><a href='rnd02/ranking.html' target='frmSwiss'>2</a></td>
+</tr></table></td><td class="noborder"><form name="selecter3">
+<table cellspacing=0>
+<tr><td><span class='MenuListBox'>Games (PGN)<BR></span>
+<select name="select3" size=1>
+<option value=none>----------</option>
+<option value='rnd01/rnd_01.pgn'>rnd_01.pgn</option>
+<option value='rnd02/rnd_02.pgn'>rnd_02.pgn</option>
+</select>
+<input type='button' value='Go' onclick='window.open( document.selecter3.select3.options[document.selecter3.select3.selectedIndex].value )'></td>
+</tr>
+</table>
+</form>
+<td class='noborder'><form name='selecter1'>
 <table cellspacing=0>
 <tr><td><span class='MenuListBox'>List by federation</span><BR>
 <select name='select1' size=1>
