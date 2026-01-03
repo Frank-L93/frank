@@ -1,22 +1,22 @@
-Rank;Name;Flags;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Zhou, Yanyang";;3.0;NED;M;1845;2378;+0.56; 5.5; 5.5
-2;"Methlouthi, Aly";;3.0;NED;M;1485;2277;+1.50; 3.5; 3.5
-3;"Kruger, Derik";;3.0;NED;M;1693;2325;+0.87; 3.0; 3.0
-4;"Plukkel, Guus";;2.0;NED;M;1674;1690;+0.12; 6.0; 3.0
-5;"Kokkula, Advaith Krishna";;2.0;NED;M;1636;1545;-0.20; 5.5; 2.5
-6;"Li, Vince";;2.0;NED;M;1481;1699;+0.81; 4.5; 2.5
-7;"Pata, Teodor-Stefan";;2.0;NED;M;1615;1567;-0.02; 4.5; 1.5
-8;"Roghair, Tommie";;2.0;NED;M;1211;1438;+0.56; 4.5; 1.5
-9;"Ma, Tim";;2.0;NED;M;1990;1715;-0.76; 3.5; 1.5
-10;"Brik, Yazan";;2.0;NED;M;1331;1701;+1.35; 3.0; 1.0
-11;"Penugurti, Advika Satya";;1.5;FID;F;1412;1521;+0.33; 4.5; 1.0
-12;"Ng, Thomas";;1.0;NED;M;1533;1348;-0.71; 7.0; 1.0
-13;"Patil, Anay";;1.0;NED;M;1686;1277;-1.50; 6.0; 1.0
-14;"Küçük, Çinar";;1.0;NED;M;1368;1436;+0.11; 5.0; 1.0
-15;"Udhaya Kumar, Medhini";;1.0;NED;F;1167;724;-0.22; 5.0; 1.0
-16;"Lalkota, Srikar";;1.0;NED;M;1228;1392;+0.50; 4.0; 1.0
-17;"Jin, Hongyi";;1.0;NED;M;1390;1258;-0.57; 3.0; 0.5
-18;"Gang, Luke Wan Cheng";;1.0;NED;M;1252;703;-0.41; 3.0; 0.0
-19;"Ding, David";;1.0;NED;M;1241;1310;+0.24; 2.0; 0.0
-20;"Gafurov, Damir";;0.5;NED;M;1524;1248;-1.08; 4.5; 0.5
-21;"Knippels, Tim";;0.0;NED;M;1405;622;-1.48; 6.0; 0.0
+Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
+1;"Zhou, Yanyang";3.0;NED;M;1845;2378;+0.56; 5.5; 5.5
+2;"Methlouthi, Aly";3.0;NED;M;1485;2277;+1.50; 3.5; 3.5
+3;"Kruger, Derik";3.0;NED;M;1693;2325;+0.87; 3.0; 3.0
+4;"Plukkel, Guus";2.0;NED;M;1674;1690;+0.12; 6.0; 3.0
+5;"Kokkula, Advaith Krishna";2.0;NED;M;1636;1545;-0.20; 5.5; 2.5
+6;"Li, Vince";2.0;NED;M;1481;1699;+0.81; 4.5; 2.5
+7;"Pata, Teodor-Stefan";2.0;NED;M;1615;1567;-0.02; 4.5; 1.5
+8;"Roghair, Tommie";2.0;NED;M;1211;1438;+0.56; 4.5; 1.5
+9;"Ma, Tim";2.0;NED;M;1990;1715;-0.76; 3.5; 1.5
+10;"Brik, Yazan";2.0;NED;M;1331;1701;+1.35; 3.0; 1.0
+11;"Penugurti, Advika Satya";1.5;FID;F;1412;1521;+0.33; 4.5; 1.0
+12;"Ng, Thomas";1.0;NED;M;1533;1348;-0.71; 7.0; 1.0
+13;"Patil, Anay";1.0;NED;M;1686;1277;-1.50; 6.0; 1.0
+14;"Küçük, Çinar";1.0;NED;M;1368;1436;+0.11; 5.0; 1.0
+15;"Udhaya Kumar, Medhini";1.0;NED;F;1167;724;-0.22; 5.0; 1.0
+16;"Lalkota, Srikar";1.0;NED;M;1228;1392;+0.50; 4.0; 1.0
+17;"Jin, Hongyi";1.0;NED;M;1390;1258;-0.57; 3.0; 0.5
+18;"Gang, Luke Wan Cheng";1.0;NED;M;1252;703;-0.41; 3.0; 0.0
+19;"Ding, David";1.0;NED;M;1241;1310;+0.24; 2.0; 0.0
+20;"Gafurov, Damir";0.5;NED;M;1524;1248;-1.08; 4.5; 0.5
+21;"Knippels, Tim";0.0;NED;M;1405;622;-1.48; 6.0; 0.0

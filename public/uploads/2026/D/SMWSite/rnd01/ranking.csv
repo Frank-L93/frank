@@ -1,22 +1,22 @@
-Rank;Name;Flags;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Zhou, Yanyang";;1.0;NED;M;1845;2245;+0.08; 0.0; 0.0
-2;"Kruger, Derik";;1.0;NED;M;1693;2205;+0.16; 0.0; 0.0
-3;"Patil, Anay";;1.0;NED;M;1686;2190;+0.15; 0.0; 0.0
-4;"Plukkel, Guus";;1.0;NED;M;1674;2168;+0.14; 0.0; 0.0
-5;"Kokkula, Advaith Krishna";;1.0;NED;M;1636;2131;+0.14; 0.0; 0.0
-6;"Pata, Teodor-Stefan";;1.0;NED;M;1615;2052;+0.10; 0.0; 0.0
-7;"Ng, Thomas";;1.0;NED;M;1533;2041;+0.15; 0.0; 0.0
-8;"Methlouthi, Aly";;1.0;NED;M;1485;2011;+0.17; 0.0; 0.0
-9;"Li, Vince";;1.0;NED;M;1481;2681;+0.92; 0.0; 0.0
-10;"Udhaya Kumar, Medhini";;1.0;NED;F;1167;0;+0.00; 0.0; 0.0
-11;"Gafurov, Damir";;0.5;NED;M;1524;1228;-0.35; 0.5; 0.25
-12;"Lalkota, Srikar";;0.5;NED;M;1228;1524;+0.35; 0.5; 0.25
-13;"Ma, Tim";;0.0;NED;M;1990;790;-0.92; 1.0; 0.0
-14;"Penugurti, Advika Satya";;0.0;FID;F;1412;1012;-0.08; 1.0; 0.0
-15;"Knippels, Tim";;0.0;NED;M;1405;893;-0.16; 1.0; 0.0
-16;"Jin, Hongyi";;0.0;NED;M;1390;886;-0.15; 1.0; 0.0
-17;"Küçük, Çinar";;0.0;NED;M;1368;874;-0.14; 1.0; 0.0
-18;"Brik, Yazan";;0.0;NED;M;1331;836;-0.14; 1.0; 0.0
-19;"Gang, Luke Wan Cheng";;0.0;NED;M;1252;815;-0.10; 1.0; 0.0
-20;"Ding, David";;0.0;NED;M;1241;733;-0.15; 1.0; 0.0
-21;"Roghair, Tommie";;0.0;NED;M;1211;685;-0.17; 1.0; 0.0
+Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
+1;"Zhou, Yanyang";1.0;NED;M;1845;2245;+0.08; 0.0; 0.0
+2;"Kruger, Derik";1.0;NED;M;1693;2205;+0.16; 0.0; 0.0
+3;"Patil, Anay";1.0;NED;M;1686;2190;+0.15; 0.0; 0.0
+4;"Plukkel, Guus";1.0;NED;M;1674;2168;+0.14; 0.0; 0.0
+5;"Kokkula, Advaith Krishna";1.0;NED;M;1636;2131;+0.14; 0.0; 0.0
+6;"Pata, Teodor-Stefan";1.0;NED;M;1615;2052;+0.10; 0.0; 0.0
+7;"Ng, Thomas";1.0;NED;M;1533;2041;+0.15; 0.0; 0.0
+8;"Methlouthi, Aly";1.0;NED;M;1485;2011;+0.17; 0.0; 0.0
+9;"Li, Vince";1.0;NED;M;1481;2681;+0.92; 0.0; 0.0
+10;"Udhaya Kumar, Medhini";1.0;NED;F;1167;0;+0.00; 0.0; 0.0
+11;"Gafurov, Damir";0.5;NED;M;1524;1228;-0.35; 0.5; 0.25
+12;"Lalkota, Srikar";0.5;NED;M;1228;1524;+0.35; 0.5; 0.25
+13;"Ma, Tim";0.0;NED;M;1990;790;-0.92; 1.0; 0.0
+14;"Penugurti, Advika Satya";0.0;FID;F;1412;1012;-0.08; 1.0; 0.0
+15;"Knippels, Tim";0.0;NED;M;1405;893;-0.16; 1.0; 0.0
+16;"Jin, Hongyi";0.0;NED;M;1390;886;-0.15; 1.0; 0.0
+17;"Küçük, Çinar";0.0;NED;M;1368;874;-0.14; 1.0; 0.0
+18;"Brik, Yazan";0.0;NED;M;1331;836;-0.14; 1.0; 0.0
+19;"Gang, Luke Wan Cheng";0.0;NED;M;1252;815;-0.10; 1.0; 0.0
+20;"Ding, David";0.0;NED;M;1241;733;-0.15; 1.0; 0.0
+21;"Roghair, Tommie";0.0;NED;M;1211;685;-0.17; 1.0; 0.0
