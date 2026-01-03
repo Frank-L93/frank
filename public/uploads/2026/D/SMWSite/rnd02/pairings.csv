@@ -1,12 +1,12 @@
 Board;WhiteNr;WhiteFideId;WhiteName;WhiteElo;WhitePoints;Result;BlackPoints;BlackElo;BlackName;BlackFideId;BlackNr
-1;7;9022409;"Pata, Teodor-Stefan";1615;1.0;*;1.0;1845;"Zhou, Yanyang";8990377;2
-2;3;9018559;"Kruger, Derik";1693;1.0;*;1.0;1533;"Ng, Thomas";8891575;8
-3;10;9021133;"Methlouthi, Aly";1485;1.0;*;1.0;1686;"Patil, Anay";9105261;4
-4;5;8985273;"Plukkel, Guus";1674;1.0;*;1.0;1481;"Li, Vince";9068708;11
-5;21;8999111;"Udhaya Kumar, Medhini";1167;1.0;*;1.0;1636;"Kokkula, Advaith Krishna";9054606;6
-6;9;8966474;"Gafurov, Damir";1524;0.5;*;0.0;1990;"Ma, Tim";8933991;1
-7;12;9100674;"Penugurti, Advika Satya";1412;0.0;*;0.5;1228;"Lalkota, Srikar";8974768;19
-8;16;9095779;"Brik, Yazan";1331;0.0;*;0.0;1405;"Knippels, Tim";8939656;13
-9;14;9069291;"Jin, Hongyi";1390;0.0;*;0.0;1252;"Gang, Luke Wan Cheng";8850776;17
-10;18;9083679;"Ding, David";1241;0.0;*;0.0;1368;"Küçük, Çinar";9116855;15
+1;7;9022409;"Pata, Teodor-Stefan";1615;1.0;0-1;1.0;1845;"Zhou, Yanyang";8990377;2
+2;3;9018559;"Kruger, Derik";1693;1.0;1-0;1.0;1533;"Ng, Thomas";8891575;8
+3;10;9021133;"Methlouthi, Aly";1485;1.0;1-0;1.0;1686;"Patil, Anay";9105261;4
+4;5;8985273;"Plukkel, Guus";1674;1.0;1-0;1.0;1481;"Li, Vince";9068708;11
+5;21;8999111;"Udhaya Kumar, Medhini";1167;1.0;0-1;1.0;1636;"Kokkula, Advaith Krishna";9054606;6
+6;9;8966474;"Gafurov, Damir";1524;0.5;0-1;0.0;1990;"Ma, Tim";8933991;1
+7;12;9100674;"Penugurti, Advika Satya";1412;0.0;1/2-1/2;0.5;1228;"Lalkota, Srikar";8974768;19
+8;16;9095779;"Brik, Yazan";1331;0.0;1-0;0.0;1405;"Knippels, Tim";8939656;13
+9;14;9069291;"Jin, Hongyi";1390;0.0;1-0;0.0;1252;"Gang, Luke Wan Cheng";8850776;17
+10;18;9083679;"Ding, David";1241;0.0;0-1;0.0;1368;"Küçük, Çinar";9116855;15
 -;20;9125710;"Roghair, Tommie";1211;0.0;1;;;pairing allocated bye
