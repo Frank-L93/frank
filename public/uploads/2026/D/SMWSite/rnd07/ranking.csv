@@ -1,19 +1,22 @@
 Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Altay, Cagan Deniz";6.0;NED;M;1484;1598;+0.88;30.5;26.0
-2;"Brik, Yazan";5.0;NED;M;1321;1402;+0.91;29.0;18.0
-3;"Ajvazian, Alex";5.0;NED;M;1189;1402;+1.62;28.5;18.0
-4;"Küçük, Çinar";5.0;NED;M;1358;1385;+0.47;24.5;15.0
-5;"Traas, Boaz";4.5;NED;M;1314;1289;+0.02;28.5;16.5
-6;"Lalkota, Srikar";4.5;NED;M;1218;1227;+0.27;26.0;14.0
-7;"Hart, Sage";4.0;NED;M;916;1232;+2.11;30.5;15.5
-8;"Do, Leo";3.5;NED;M;1216;1145;-0.54;27.0;13.25
-9;"Marupudi, Maurya Kiran";3.5;NED;M;1038;1047;+0.07;23.0; 8.25
-10;"Metha, Kabir";3.5;NED;M;0;923; 923;16.0; 6.25
-11;"Leenen, Bing";3.0;NED;M;1541;1232;-2.61;30.5; 9.5
-12;"Mysore, Dhyaan";3.0;NED;M;1083;972;-0.76;23.0; 5.5
-13;"Methlouthi, Youssef";3.0;NED;M;1266;1120;-0.76;22.5; 6.5
-14;"Ramidi,Svaksha Idhayan";3.0;NED;M;0 *;852; 852;20.0; 4.5
-15;"Sahu, Chirayush";2.5;NED;M;460;656;+0.65;18.5; 3.75
-16;"Van der Aalst, Sevein";2.0;NED;M;1038;315;-1.97;24.0; 3.5
-17;"Gupta, Kiaan";2.0;NED;M;814;756;-0.36;20.0; 2.5
-18;"Gang, Max Wan Xi";0.0;NED;M;717 *;132; 132;19.0; 0.0
+1;"Zhou, Yanyang";6.0;NED;M;1845;2368;+1.08;22.5;22.5
+2;"Kruger, Derik";5.0;NED;M;1693;1869;+1.27;20.5;14.5
+3;"Pata, Teodor-Stefan";4.5;NED;M;1615;1669;+0.57;21.5;14.0
+4;"Plukkel, Guus";4.0;NED;M;1674;1649;-0.02;22.0;11.0
+5;"Li, Vince";4.0;NED;M;1481;1656;+1.37;18.5;10.0
+6;"Lalkota, Srikar";4.0;NED;M;1228;1630;+2.93;17.0; 9.75
+7;"Penugurti, Advika Satya";3.5;FID;F;1412;1514;+0.56;23.5;11.0
+8;"Kokkula, Advaith Krishna";3.0;NED;M;1636;1558;-0.55;21.5; 8.25
+9;"Methlouthi, Aly";3.0;NED;M;1485;1504;+0.20;20.5; 7.5
+10;"Ng, Thomas";3.0;NED;M;1533;1414;-0.75;19.5; 5.5
+11;"Roghair, Tommie";3.0;NED;M;1211;1370;+0.85;18.5; 7.5
+12;"Gafurov, Damir";3.0;NED;M;1524;1426;-0.71;18.0; 7.75
+13;"Jin, Hongyi";3.0;NED;M;1390;1349;-0.35;11.5; 3.5
+14;"Ma, Tim";2.5;NED;M;1990;1697;-1.15;23.0; 5.5
+15;"Patil, Anay";2.5;NED;M;1686;1327;-2.55;17.5; 5.75
+16;"Brik, Yazan";2.0;NED;M;1331;1615;+1.27;24.0; 4.5
+17;"Küçük, Çinar";2.0;NED;M;1368;1220;-1.05;19.0; 4.0
+18;"Gang, Luke Wan Cheng";2.0;NED;M;1252;1173;-0.63;14.5; 2.5
+19;"Ding, David";2.0;NED;M;1241;1257;+0.06;12.5; 3.5
+20;"Knippels, Tim";1.0;NED;M;1405;622;-1.48;19.5; 1.5
+21;"Udhaya Kumar, Medhini";1.0;NED;F;1167;645;-0.92;17.0; 3.0
