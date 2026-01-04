@@ -1,22 +1,22 @@
 Rank;Name;Score;Federation;Gender;Rating;TPR;W-We;BH;SB
-1;"Zhou, Yanyang";4.0;NED;M;1845;2345;+0.64;10.5;10.5
-2;"Kruger, Derik";4.0;NED;M;1693;2315;+1.10; 8.0; 8.0
-3;"Methlouthi, Aly";3.0;NED;M;1485;1724;+1.27; 9.5; 5.5
-4;"Plukkel, Guus";3.0;NED;M;1674;1685;+0.20; 9.0; 5.0
-5;"Pata, Teodor-Stefan";3.0;NED;M;1615;1645;+0.30; 8.5; 4.5
-6;"Kokkula, Advaith Krishna";2.5;NED;M;1636;1658;+0.19; 9.0; 3.75
-7;"Penugurti, Advika Satya";2.5;FID;F;1412;1584;+0.80; 8.5; 3.5
-8;"Ma, Tim";2.5;NED;M;1990;1697;-1.15; 7.5; 4.25
-9;"Küçük, Çinar";2.0;NED;M;1368;1285;-0.58; 9.5; 2.0
-10;"Li, Vince";2.0;NED;M;1481;1584;+0.49; 9.0; 3.0
-11;"Brik, Yazan";2.0;NED;M;1331;1615;+1.27; 9.0; 2.5
-12;"Lalkota, Srikar";2.0;NED;M;1228;1480;+1.19; 8.5; 3.5
-13;"Roghair, Tommie";2.0;NED;M;1211;1370;+0.48; 8.5; 2.5
-14;"Ng, Thomas";2.0;NED;M;1533;1397;-0.61; 8.5; 1.5
-15;"Patil, Anay";2.0;NED;M;1686;1373;-1.42; 6.5; 1.5
-16;"Gafurov, Damir";1.5;NED;M;1524;1364;-0.92; 8.0; 2.0
-17;"Udhaya Kumar, Medhini";1.0;NED;F;1167;727;-0.32; 8.5; 2.0
-18;"Knippels, Tim";1.0;NED;M;1405;622;-1.48; 7.5; 0.5
-19;"Gang, Luke Wan Cheng";1.0;NED;M;1252;752;-0.49; 7.0; 1.0
-20;"Jin, Hongyi";1.0;NED;M;1390;1197;-1.04; 6.5; 0.5
-21;"Ding, David";1.0;NED;M;1241;1265;+0.08; 5.5; 0.5
+1;"Zhou, Yanyang";5.0;NED;M;1845;2374;+0.94;17.0;17.0
+2;"Kruger, Derik";4.0;NED;M;1693;1821;+0.80;14.5; 9.5
+3;"Plukkel, Guus";4.0;NED;M;1674;1731;+0.45;14.0; 9.0
+4;"Pata, Teodor-Stefan";3.5;NED;M;1615;1637;+0.33;14.5; 8.0
+5;"Penugurti, Advika Satya";3.5;FID;F;1412;1584;+0.80;14.5; 8.0
+6;"Methlouthi, Aly";3.0;NED;M;1485;1631;+1.02;14.0; 6.0
+7;"Kokkula, Advaith Krishna";3.0;NED;M;1636;1645;+0.16;13.5; 6.25
+8;"Li, Vince";3.0;NED;M;1481;1582;+0.66;12.5; 5.0
+9;"Lalkota, Srikar";3.0;NED;M;1228;1581;+2.11;12.0; 6.0
+10;"Ng, Thomas";3.0;NED;M;1533;1397;-0.61;11.5; 4.5
+11;"Ma, Tim";2.5;NED;M;1990;1697;-1.15;13.0; 5.0
+12;"Gafurov, Damir";2.5;NED;M;1524;1364;-0.92;12.5; 5.0
+13;"Brik, Yazan";2.0;NED;M;1331;1615;+1.27;14.0; 3.0
+14;"Roghair, Tommie";2.0;NED;M;1211;1299;+0.31;13.5; 3.5
+15;"Küçük, Çinar";2.0;NED;M;1368;1285;-0.58;13.0; 3.0
+16;"Patil, Anay";2.0;NED;M;1686;1284;-2.34;11.0; 2.5
+17;"Ding, David";2.0;NED;M;1241;1344;+0.60; 7.5; 1.5
+18;"Jin, Hongyi";2.0;NED;M;1390;1274;-0.82; 7.5; 1.0
+19;"Udhaya Kumar, Medhini";1.0;NED;F;1167;693;-0.54;12.5; 2.0
+20;"Knippels, Tim";1.0;NED;M;1405;622;-1.48;11.0; 0.5
+21;"Gang, Luke Wan Cheng";1.0;NED;M;1252;675;-1.01;10.5; 1.0
