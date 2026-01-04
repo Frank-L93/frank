@@ -11,6 +11,7 @@ export default function Resume() {
             <div className="text-2xl font-semibold mx-auto text-yellow-300 text-center">Resume</div>
             <div className="text-xs mx-auto text-center"><a href="https://www.linkedin.com/in/frank-lambregts-a72017149/" target="_blank"><span className="m-2 bg-white rounded-md px-2 py-1 inline-block text-blue-300">LinkedIn</span></a>
             </div>
+            <div>Oops, on January 2nd, I broke it when renewing for the year 2026. Come back in a few days</div>
 
             <Chrono items={[
                   {
