@@ -43,7 +43,7 @@ new #[Title('DeepDives')] class extends Component
     </div>
     <div class="px-2 py-2 grid grid-cols-1 sm:grid-cols-3 mt-16 sm:gap-10">
     @foreach($deepdives as $deepdive)
-        <x-card :cardTitle="$deepdive['title']" :links="isset($deepdive['links']) ? $deepdive['links'] : []" :content="isset($deepdive['content']) ? $deepdive['content'] : null" :href="null" />
+        <x-card :cardTitle="$deepdive['title']" :links="isset($deepdive['links']) ? $deepdive['links'] : []" :content="isset($deepdive['content']) ? $deepdive['content'] : null" :href="null" :isExternal="false" :imageSrc="null"/>
     @endforeach
     </div>
 </div>
