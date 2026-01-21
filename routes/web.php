@@ -5,46 +5,21 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Redirect;
 use Inertia\Inertia;
 use App\Http\Controllers\ChessController;
-use App\Http\Controllers\SwissMasterController;
 
-Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'designed' => true,
-    ]);
-});
+
+
+Route::livewire('/', 'pages::home')->name('home');
+Route::livewire('/projects', 'pages::projects')->name('projects');
+Route::livewire('/deepdives', 'pages::deepdives')->name('deepdives');
+Route::livewire('/resume', 'pages::resume')->name('resume');
+Route::livewire('/chess', 'pages::chess')->name('chess');
+Route::livewire('/teams/{path1}/{path2?}', 'pages::ranking')->where(['path1' => '[a-zA-Z0-9]+', 'path2' => '[a-zA-Z0-9]+']);
+Route::livewire('/teams/{path1}', 'pages::ranking')->where(['path1' => '[a-zA-Z0-9]+']);
 
 Route::get('/harry-potter', function(){
     return view('harry-potter');
 });
-Route::get('/resume', function(){
-    return Inertia::render('Resume', [
-        'year' => date('Y'),
-    ]);
-})->name('resume');
 
-
-Route::get('/projects', function(){
-    return Inertia::render('Projects');
-})->name('projects');
-
-Route::get('/deepdives', function(){
-    return Inertia::render('Deepdives');
-})->name('deepdives');
-
-Route::get('/chess', [ChessController::class, 'index'])->name('chess');
-
-Route::get('/schaakles/{filename}', function($filename){
-    return Inertia::render('Schaakles', [
-        'filename' => $filename,
-    ]);
-})->name('schaakles');
-
-Route::get('/individual', [SwissMasterController::class, 'individualIndex'])->name('individual');
-Route::get('/individual/{path1}/{path2?}', [SwissMasterController::class, 'individual'])->where(['path1' => '[a-zA-Z0-9]+', 'path2' => '[a-zA-Z0-9]+']);
-Route::get('/individual/{path1}', [SwissMasterController::class, 'individual'])->where(['path1' => '[a-zA-Z0-9]+']);
-Route::get('/teams', [SwissMasterController::class, 'teamsIndex'])->name('teams');
-Route::get('/teams/{path1}/{path2?}', [SwissMasterController::class, 'index'])->where(['path1' => '[a-zA-Z0-9]+', 'path2' => '[a-zA-Z0-9]+']);
-Route::get('/teams/{path1}', [SwissMasterController::class, 'index'])->where(['path1' => '[a-zA-Z0-9]+']);
 
 Route::get('/rad', function() {
     return Redirect::to('https://wheelofnames.com/nl/gdp-5hp');

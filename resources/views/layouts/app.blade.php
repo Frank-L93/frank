@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
+    <head>
+          <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Frank Lambregts">
     <link rel="icon" href="/favicon.ico" sizes="any">
@@ -20,14 +20,10 @@
     <meta name="twitter:title" content="Frank Lambregts - Information Analyst & Developer">
     <meta name="twitter:description" content="Explore the projects, resume, and deep dives of Frank Lambregts.">
     <meta name="twitter:image" content="{{ url('/frank-social-card.png') }}">
-    <title inertia>{{ config('app.name', 'Frank Lambregts') }}</title>
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-    @routes
-    @viteReactRefresh
-    @vite(['resources/js/app.jsx', "resources/js/Pages/{$page['component']}.jsx"])
+        <title>{{ $title }} | {{config('app.name') }}</title>
 
-    <script type="application/ld+json">
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+ <script type="application/ld+json">
         {
           "context": "https://schema.org",
           "@type": "Person",
@@ -47,8 +43,37 @@
           "knowsAbout": ["Laravel", "PHP", "React", "Statamic", "Chess", "Business Process Modeling"]
         }
     </script>
-</head>
-<body class="font-sans antialiased">
-@inertia
-</body>
+        @livewireStyles
+    </head>
+    <body>
+
+         <div class="flex min-h-screen flex-col bg-gray-100 dark:bg-gray-900">
+            <livewire:navigation />
+
+            <main class="flex w-full grow flex-col items-center p-4 sm:p-6">
+                <div class="w-full rounded-md max-w-4xl overflow-hidden bg-white px-4 py-4 shadow-md sm:rounded-lg dark:bg-gray-800">
+                    {{ $slot }}
+                </div>
+            </main>
+
+           
+                <footer class="w-full py-4 text-center text-sm text-gray-500 dark:text-gray-400">
+                    <div class="flex flex-wrap justify-center gap-x-4 gap-y-2">
+                        <span class="text-yellow-300">
+                            Coded with <span aria-hidden="true">💖</span> in <a href="https://laravel.com" target="_blank">Laravel</a>
+                        </span>
+                        <span class="text-green-300">
+                            Powered <span aria-hidden="true">⚡</span> by <a href="https://livewire.laravel.com" target="_blank">Livewire</a>
+                        </span>
+                        <span class="text-purple-300">
+                            Designed <span aria-hidden="true">🎨</span> with <a href="https://tailwindcss.com" target="_blank">Tailwind</a>
+                        </span>
+                    </div>
+                </footer>
+          
+        </div>
+        
+
+        @livewireScripts
+    </body>
 </html>

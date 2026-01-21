@@ -6,12 +6,9 @@
         "dev": "vite"
     },
     "devDependencies": {
-        "@headlessui/react": "*",
-        "@inertiajs/react": "*",
         "@tailwindcss/forms": "*",
         "@tailwindcss/postcss": "*",
         "@tailwindcss/vite": "*",
-        "@vitejs/plugin-react": "*",
         "axios": "*",
         "concurrently": "*",
         "laravel-vite-plugin": "*",

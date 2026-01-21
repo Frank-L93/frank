@@ -10,11 +10,16 @@
     "license": "MIT",
     "require": {
         "php": "^8.4",
+        "blade-ui-kit/blade-icons": "^1.8",
+        "codeat3/blade-file-icons": "^1.10",
+        "codeat3/blade-simple-icons": "^8.1",
         "inertiajs/inertia-laravel": "*",
         "laravel/framework": "*",
         "laravel/nightwatch": "*",
         "laravel/sanctum": "*",
         "laravel/tinker": "*",
+        "livewire/livewire": "^4.0",
+        "owenvoke/blade-fontawesome": "^3.0",
         "tightenco/ziggy": "*"
     },
     "require-dev": {
