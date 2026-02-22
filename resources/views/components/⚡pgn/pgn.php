@@ -11,4 +11,9 @@ new class extends Component
     {
         $this->pgn = ChessController::GetLastGameLiChess();
     }
+
+    public function refreshPgn()
+    {
+        $this->pgn = ChessController::GetLastGameLiChess();
+    }
 };
