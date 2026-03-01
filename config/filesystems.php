@@ -47,6 +47,14 @@ return [
             'report' => false,
         ],
 
+        'smwjson' => [
+            'driver' => 'local',
+            'root' => 'uploads/',
+            'url' => env('APP_URL'),
+            'visibility' => 'public',
+            'throw' => false,
+            'report' => false,
+        ],
 
         'teams' => [
             'driver' => 'local',

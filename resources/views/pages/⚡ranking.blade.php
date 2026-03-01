@@ -17,20 +17,20 @@ new #[Title('Rankings')] class extends Component
     public function mount(Request $request)
     {
         $pathSegments = $request->segments();
-
-        if (count($pathSegments) < 2 || count($pathSegments) > 3) {
+        if (count($pathSegments) < 2 || count($pathSegments) > 4) {
             return response()->json(['error' => 'Invalid path'], 400);
         }
 
         // Determine disk and path: supports /teams/C/individueel (2025 default)
         // and /teams/C/2026/individueel (year-specific)
         [$disk, $directoryPath] = $this->resolveDiskAndPath($pathSegments);
-
         if (!Storage::disk($disk)->exists($directoryPath)) {
             return response()->json(['error' => 'Directory not found'], 404);
         }
+       
 
         $dataFile = $this->findDataFile($disk, $directoryPath);
+       
         if (!$dataFile) {
             return response()->json(['error' => 'data.json not found'], 404);
         }
@@ -45,6 +45,7 @@ new #[Title('Rankings')] class extends Component
 
     private function resolveDiskAndPath(array $pathSegments): array
     {
+        
         // Look for a year (4-digit number) in the path segments
         $yearKey = null;
         foreach ($pathSegments as $key => $segment) {
@@ -57,21 +58,22 @@ new #[Title('Rankings')] class extends Component
         if ($yearKey !== null) {
             // Year found: use local disk with full path
             $year = $pathSegments[$yearKey];
-            $disk = 'local';
+            $disk = 'smwjson';
             $pathWithoutYear = array_diff_key($pathSegments, [$yearKey => null]);
-            $directoryPath = 'uploads/' . $year . '/teams/' . implode('/', $pathWithoutYear) . '/';
+            $directoryPath = $year . '/' . implode('/', $pathWithoutYear) . '/';
         } else {
-            // No year: use default 'teams' disk (points to uploads/2025/teams)
+            // No year: use default 'teams' disk (points to uploads/2025/teams (so it shouldn't include the first pathSegment actually since it's already in the disk root))
             $disk = 'teams';
-            $directoryPath = '/' . implode('/', $pathSegments) . '/';
+            $directoryPath = '/' . implode('/', array_slice($pathSegments, 1)) . '/';
         }
-
+        
         return [$disk, $directoryPath];
     }
 
     private function findDataFile(string $disk, string $directoryPath): ?string
     {
         $files = Storage::disk($disk)->files($directoryPath);
+       
         return collect($files)->first(fn($file) => basename($file) === 'data.json');
     }
 
