@@ -16,124 +16,131 @@ new #[Title('Rankings')] class extends Component
     #[Mounted]
     public function mount(Request $request)
     {
-         $pathSegments = $request->segments();
-        
+        $pathSegments = $request->segments();
 
-        // Check if there are enough segments to form a valid path
-        if (count($pathSegments) < 2) {
+        if (count($pathSegments) < 2 || count($pathSegments) > 3) {
             return response()->json(['error' => 'Invalid path'], 400);
         }
 
-        // Construct the base directory
-        $baseDirectory = '/';
+        // Determine disk and path: supports /teams/C/individueel (2025 default)
+        // and /teams/C/2026/individueel (year-specific)
+        [$disk, $directoryPath] = $this->resolveDiskAndPath($pathSegments);
 
-        // Build the subpath from the URL segments
-        $subPath = implode('/', array_slice($pathSegments, 1));
-
-        // Construct the full directory path
-        $directoryPath = $baseDirectory . $subPath . "/";
-
-        // Check if the directory exists
-        if (!Storage::disk($pathSegments[0])->exists($directoryPath)) {
-
+        if (!Storage::disk($disk)->exists($directoryPath)) {
             return response()->json(['error' => 'Directory not found'], 404);
         }
 
-        // Find the data.json file in the directory
-        $files = Storage::disk($pathSegments[0])->files($directoryPath);
-
-        $dataFile = null;
-        foreach ($files as $file) {
-
-            if (basename($file) === "data.json") {
-                $dataFile = $file;
-
-                break;
-            }
-
-        }
-
-        // Check if data.json was found
-        if ($dataFile === null) {
+        $dataFile = $this->findDataFile($disk, $directoryPath);
+        if (!$dataFile) {
             return response()->json(['error' => 'data.json not found'], 404);
         }
 
-        // Get the content of the data.json file
-        $jsonData = Storage::disk('teams')->get($dataFile);
-
-        // Decode the JSON data
-        $data = json_decode($jsonData, true);
-
-        // Check if the JSON data is valid
-        if (json_last_error() !== JSON_ERROR_NONE) {
+        $this->data = $this->loadJsonFile($disk, $dataFile);
+        if ($this->data === null) {
             return response()->json(['error' => 'Invalid JSON data'], 500);
         }
-        $this->data = $data;
+
         $this->loadPlayerRankings();
     }
 
+    private function resolveDiskAndPath(array $pathSegments): array
+    {
+        // Look for a year (4-digit number) in the path segments
+        $yearKey = null;
+        foreach ($pathSegments as $key => $segment) {
+            if (is_numeric($segment) && strlen($segment) === 4) {
+                $yearKey = $key;
+                break;
+            }
+        }
 
-    
+        if ($yearKey !== null) {
+            // Year found: use local disk with full path
+            $year = $pathSegments[$yearKey];
+            $disk = 'local';
+            $pathWithoutYear = array_diff_key($pathSegments, [$yearKey => null]);
+            $directoryPath = 'uploads/' . $year . '/teams/' . implode('/', $pathWithoutYear) . '/';
+        } else {
+            // No year: use default 'teams' disk (points to uploads/2025/teams)
+            $disk = 'teams';
+            $directoryPath = '/' . implode('/', $pathSegments) . '/';
+        }
+
+        return [$disk, $directoryPath];
+    }
+
+    private function findDataFile(string $disk, string $directoryPath): ?string
+    {
+        $files = Storage::disk($disk)->files($directoryPath);
+        return collect($files)->first(fn($file) => basename($file) === 'data.json');
+    }
+
+    private function loadJsonFile(string $disk, string $filePath): ?array
+    {
+        $jsonData = Storage::disk($disk)->get($filePath);
+        $data = json_decode($jsonData, true);
+        return json_last_error() === JSON_ERROR_NONE ? $data : null;
+    }
+
 
     public function loadPlayerRankings()
     {
-        if (isset($this->data['rounds']) && isset($this->data['players'])) {
-            $rounds = $this->data['rounds'];
-            $lastRound = end($rounds);
-
-            if (isset($lastRound['ranking'])) {
-                $rankings = [];
-                foreach ($lastRound['ranking'] as $ranking) {
-                    $player = collect($this->data['players'])
-                        ->firstWhere('pairing_number', $ranking['player']);
-
-                    $rankings[] = array_merge($ranking, [
-                        'playerName' => $player['name'] ?? 'Unknown Player',
-                        'playerRating' => $player['rating'] ?? 'Unknown Rating',
-                        'pairingNumber' => $player['pairing_number'] ?? null,
-                    ]);
-                }
-
-                usort($rankings, fn($a, $b) => $a['rank'] <=> $b['rank']);
-                $this->playerRankings = $rankings;
-            }
+        if (!isset($this->data['rounds']) || !isset($this->data['players'])) {
+            return;
         }
-    }
 
-    public function selectPlayer($pairingNumber)
-    {
-        $player = collect($this->playerRankings)->firstWhere('pairingNumber', $pairingNumber);
-        $this->selectedPlayer = $player;
-        $this->loadPlayerMatches();
+        $lastRound = end($this->data['rounds']);
+        if (!isset($lastRound['ranking'])) {
+            return;
+        }
+
+        $playersMap = collect($this->data['players'])->keyBy('pairing_number');
+
+        $rankings = collect($lastRound['ranking'])
+            ->map(function ($ranking) use ($playersMap) {
+                $player = $playersMap->get($ranking['player'], []);
+                return array_merge($ranking, [
+                    'playerName' => $player['name'] ?? 'Unknown Player',
+                    'playerRating' => $player['rating'] ?? 'Unknown Rating',
+                    'pairingNumber' => $player['pairing_number'] ?? null,
+                ]);
+            })
+            ->sortBy('rank')
+            ->values()
+            ->toArray();
+
+        $this->playerRankings = $rankings;
     }
 
     public function loadPlayerMatches()
     {
         $this->playerMatches = [];
 
-        if ($this->selectedPlayer && isset($this->data['rounds']) && isset($this->data['players'])) {
-            foreach ($this->data['rounds'] as $round) {
-                if (isset($round['pairings'])) {
-                    foreach ($round['pairings'] as $pairing) {
-                        if ($pairing['black'] == $this->selectedPlayer['pairingNumber'] ||
-                            $pairing['white'] == $this->selectedPlayer['pairingNumber']) {
+        if (!$this->selectedPlayer || !isset($this->data['rounds']) || !isset($this->data['players'])) {
+            return;
+        }
 
-                            $blackPlayer = collect($this->data['players'])
-                                ->firstWhere('pairing_number', $pairing['black']);
-                            $whitePlayer = collect($this->data['players'])
-                                ->firstWhere('pairing_number', $pairing['white']);
+        $playersMap = collect($this->data['players'])->keyBy('pairing_number');
+        $pairingNumber = $this->selectedPlayer['pairingNumber'];
 
-                            $this->playerMatches[] = [
-                                'round' => $round['number'],
-                                'table' => $pairing['table'],
-                                'black' => $blackPlayer['name'] ?? 'Unknown',
-                                'white' => $whitePlayer['name'] ?? 'Unknown',
-                                'black_points' => $pairing['black_points'],
-                                'white_points' => $pairing['white_points'],
-                            ];
-                        }
-                    }
+        foreach ($this->data['rounds'] as $round) {
+            if (!isset($round['pairings'])) {
+                continue;
+            }
+
+            foreach ($round['pairings'] as $pairing) {
+                if ($pairing['black'] !== $pairingNumber && $pairing['white'] !== $pairingNumber) {
+                    continue;
                 }
+
+                $this->playerMatches[] = [
+                    'round' => $round['number'],
+                    'table' => $pairing['table'],
+                    'white' => $playersMap->get($pairing['white'], [])['name'] ?? 'Unknown',
+                    'black' => $playersMap->get($pairing['black'], [])['name'] ?? 'Unknown',
+                    'white_points' => $pairing['white_points'],
+                    'black_points' => $pairing['black_points'],
+                ];
             }
         }
     }
