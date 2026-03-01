@@ -114,8 +114,10 @@ new #[Title('Rankings')] class extends Component
         $this->playerRankings = $rankings;
     }
 
-    public function loadPlayerMatches()
+    public function loadPlayerMatches($selectedPlayer)
     {
+        $this->selectedPlayer = $selectedPlayer;
+       
         $this->playerMatches = [];
 
         if (!$this->selectedPlayer || !isset($this->data['rounds']) || !isset($this->data['players'])) {
@@ -123,6 +125,7 @@ new #[Title('Rankings')] class extends Component
         }
 
         $playersMap = collect($this->data['players'])->keyBy('pairing_number');
+    
         $pairingNumber = $this->selectedPlayer['pairingNumber'];
 
         foreach ($this->data['rounds'] as $round) {
@@ -145,6 +148,7 @@ new #[Title('Rankings')] class extends Component
                 ];
             }
         }
+        return $this->playerMatches;
     }
 
     public function closeMatches()
@@ -180,7 +184,7 @@ new #[Title('Rankings')] class extends Component
                                     <td class="border px-4 py-2">{{ $ranking['rank'] }}</td>
                                     <td class="border px-4 py-2">
                                         <button
-                                            wire:click="selectPlayer({{ $ranking['pairingNumber'] }})"
+                                            wire:click="loadPlayerMatches({{ json_encode($ranking) }})"
                                             class="text-blue-500 hover:underline"
                                         >
                                             {{ $ranking['playerName'] }}
