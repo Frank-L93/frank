@@ -215,6 +215,7 @@ new #[Title('Rankings')] class extends Component
                                     (Close)
                                 </button>
                             </h2>
+                            <p>For team-events, the result is shown is not the board points!</p>
                             @if(count($playerMatches) > 0)
                                 <table class="table-auto w-full">
                                     <thead>
