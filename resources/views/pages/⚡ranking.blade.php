@@ -215,7 +215,7 @@ new #[Title('Rankings')] class extends Component
                                     (Close)
                                 </button>
                             </h2>
-                            <p>For team-events, the result is shown is not the board points!</p>
+                            <p>For team-events, the result shown is not the board points! If a round is missing, this means the teams had a bye in that round</p>
                             @if(count($playerMatches) > 0)
                                 <table class="table-auto w-full">
                                     <thead>
