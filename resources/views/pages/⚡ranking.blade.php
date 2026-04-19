@@ -132,20 +132,22 @@ new #[Title('Rankings')] class extends Component
             if (!isset($round['pairings'])) {
                 continue;
             }
+           
 
             foreach ($round['pairings'] as $pairing) {
                 if ($pairing['black'] !== $pairingNumber && $pairing['white'] !== $pairingNumber) {
                     continue;
                 }
-
+                
                 $this->playerMatches[] = [
                     'round' => $round['number'],
                     'table' => $pairing['table'],
                     'white' => $playersMap->get($pairing['white'], [])['name'] ?? 'Unknown',
                     'black' => $playersMap->get($pairing['black'], [])['name'] ?? 'Unknown',
-                    'white_points' => $pairing['white_points'],
-                    'black_points' => $pairing['black_points'],
+                    'white_points' => $pairing['white_points'] ?? 0,
+                    'black_points' => $pairing['black_points'] ?? 0,
                 ];
+                
             }
         }
         return $this->playerMatches;
